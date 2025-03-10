@@ -143,8 +143,8 @@ table {
 .gradient-border {
   position: relative;
   background-color: white;
-  border-radius: 12px;
-  /* z-index: 1; */
+  border-radius: 10px;
+  transform-style: preserve-3d;
 }
 
 .gradient-border::before {
@@ -154,7 +154,11 @@ table {
   right: -2px;
   bottom: -2px;
   left: -2px;
-  background: linear-gradient(to right, #3BD2AB, #A5D0FF, #77A2FF, #FFA8A0);
+  background: #e5e7eb;
   border-radius: 12px;
-  z-index: -1;
+  transform: translateZ(-1px);
+}
+
+.gradient-border__active::before {
+  background: linear-gradient(to left, #3BD2AB, #A5D0FF, #77A2FF, #FFA8A0);
 }

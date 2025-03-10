@@ -39,9 +39,8 @@ function ChatInput() {
 
   return (
     <div
-      className={`flex flex-1 h-12 p-2 pl-4 items-center justify-between bg-white dark:bg-[#242733] dark:border-[#6f7f95]  border-2 gradient-border ${
-        isFocus ? 'border-[#0c75fc]' : ''
-      }`}
+      className={`flex flex-1 h-12 p-2 pl-4 items-center justify-between bg-white dark:bg-[#242733] dark:border-[#6f7f95]  gradient-border  ${isFocus ? 'gradient-border__active' : ''
+        }`}
     >
       <Input.TextArea
         placeholder={t('input_tips')}
