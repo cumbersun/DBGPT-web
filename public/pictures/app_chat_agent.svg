@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="45px" viewBox="0 0 40 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tongyong</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.265269886" offset="0%"></stop>
+            <stop stop-color="#5A8EF5" stop-opacity="0.158157029" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.2730127%" y1="91.7719908%" x2="18.0367597%" y2="10.4938272%" id="linearGradient-2">
+            <stop stop-color="#EDF5FF" offset="0%"></stop>
+            <stop stop-color="#F1F6FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.861806163" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="11 19.9533427 18.3625654 24.3956283 18.3625654 33 21.6354712 33 21.6354712 24.3915378 29 19.9492522 27.3606021 17 20 21.4402403 12.6374346 17.0020453 11 19.9512975"></polygon>
+        <filter x="-19.4%" y="-15.6%" width="138.9%" height="143.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.131613607   0 0 0 0 0.19019262   0 0 0 0 0.383237092  0 0 0 0.712494537 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tongyong">
+            <rect id="矩形备份-36" x="0" y="2" width="40" height="40"></rect>
+            <path d="M17.9452183,0.628050913 C19.1848631,-0.0858441537 20.7920941,-0.0854842992 22.0497841,0.62794795 L37.86635,9.78318256 C39.1294869,10.5206726 39.9069767,11.8775322 39.9069767,13.3524451 L39.9069767,31.6584311 C39.9069767,33.1334069 39.1246698,34.4902644 37.8666594,35.2275139 L22.0597464,44.3753292 C21.412473,44.6975785 20.6991886,44.9069767 19.9903614,44.9069767 C19.2793255,44.9069767 18.5682066,44.7229953 17.9502159,44.3539249 L2.13378085,35.1987668 C0.875367705,34.461283 0.0930232558,33.1044877 0.0930232558,31.6342616 L0.0930232558,13.3476112 C0.0930232558,11.8726355 0.875330177,10.515778 2.13334064,9.7785285 Z" id="形状" stroke="url(#linearGradient-1)" stroke-width="0.186046512" fill="#5A81FF"></path>
+            <g id="路径">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <path stroke="url(#linearGradient-3)" stroke-width="0.6" d="M27.2494084,17.4174358 L28.597107,19.8419253 L21.3354712,24.2221458 L21.3354712,32.7 L18.6625654,32.7 L18.6625654,24.2262596 L11.4026774,19.8459256 L12.7488908,17.4195225 L20.0000563,21.7905652 L27.2494084,17.4174358 Z" stroke-linejoin="square" fill="url(#linearGradient-2)" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

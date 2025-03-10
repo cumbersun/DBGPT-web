@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title> Excel</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.265269886" offset="0%"></stop>
+            <stop stop-color="#5A8EF5" stop-opacity="0.158157029" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.2730127%" y1="101.165643%" x2="18.0367597%" y2="1.60971025%" id="linearGradient-2">
+            <stop stop-color="#EDF5FF" offset="0%"></stop>
+            <stop stop-color="#F1F6FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.861806163" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="24.3194022 29.859946 20.1230733 24.188071 15.9262886 29.859946 12.6647561 29.859946 18.4804569 22.2764639 13.0298326 15.1858389 16.2913651 15.1858389 20.1230733 20.3648567 23.9547815 15.1858389 27.216314 15.1858389 21.7192006 22.2760174 27.5809348 29.859946"></polygon>
+        <filter x="-23.5%" y="-17.0%" width="146.9%" height="147.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.131613607   0 0 0 0 0.19019262   0 0 0 0 0.383237092  0 0 0 0.712494537 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-Excel">
+            <g id="编组" transform="translate(4, 0)">
+                <path d="M22.0046846,0.0930232558 L32.9069767,10.9676187 L32.9069767,37.9799107 C32.9069767,38.5118197 32.6866932,38.993298 32.3308336,39.3418594 C31.9742691,39.6911113 31.4816432,39.9069767 30.9376139,39.9069767 L2.06238606,39.9069767 C1.51835676,39.9069767 1.02573092,39.6911113 0.669166406,39.3418594 C0.313306807,38.993298 0.0930232558,38.5118197 0.0930232558,37.9799107 L0.0930232558,2.02008929 C0.0930232558,1.50925243 0.30004232,1.01935959 0.668956327,0.658011494 C1.03865065,0.29632562 1.53988824,0.0930232558 2.06238606,0.0930232558 L22.0046846,0.0930232558 Z" id="形状" stroke="url(#linearGradient-1)" stroke-width="0.186046512" fill="#5F84FF"></path>
+                <path d="M33,11.1627907 L23.8047798,11.1627907 C23.1549409,11.1627907 22.6285714,10.6073007 22.6285714,9.92253138 L22.6285714,0 L33,11.1627907 Z" id="路径" fill="#2E4DB2" fill-rule="nonzero" opacity="0.677850632"></path>
+            </g>
+            <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            <g id="路径">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <path stroke="url(#linearGradient-3)" stroke-width="0.558139535" d="M16.1506901,15.4649086 L20.1230733,20.8340659 L24.0954565,15.4649086 L26.6468263,15.4649086 L21.3662848,22.2757528 L27.0125262,29.5808762 L24.4600777,29.5808762 L20.1230855,23.7188768 L15.7856222,29.5808762 L13.2304577,29.5808762 L18.8322968,22.2762627 L13.5963505,15.4649086 L16.1506901,15.4649086 Z" stroke-linejoin="square" fill="url(#linearGradient-2)" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>
