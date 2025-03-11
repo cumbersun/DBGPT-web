@@ -29,12 +29,12 @@ function ConstructLayout({ children }: { children: React.ReactNode }) {
       //   </Button>
       // ),
     },
-    {
-      key: 'flow',
-      name: t('awel_flow'),
-      icon: <ForkOutlined />,
-      path: '/flow',
-    },
+    // {
+    //   key: 'flow',
+    //   name: t('awel_flow'),
+    //   icon: <ForkOutlined />,
+    //   path: '/flow',
+    // },
     {
       key: 'models',
       name: t('model_manage'),
@@ -111,15 +111,15 @@ function ConstructLayout({ children }: { children: React.ReactNode }) {
           onTabClick={key => {
             router.push(`/construct/${key}`);
           }}
-          // tabBarExtraContent={
-          //   <Button
-          //     className='border-none text-white bg-button-gradient h-full flex items-center'
-          //     icon={<PlusOutlined className='text-base' />}
-          //     // onClick={handleCreate}
-          //   >
-          //     {t('create_app')}
-          //   </Button>
-          // }
+        // tabBarExtraContent={
+        //   <Button
+        //     className='border-none text-white bg-button-gradient h-full flex items-center'
+        //     icon={<PlusOutlined className='text-base' />}
+        //     // onClick={handleCreate}
+        //   >
+        //     {t('create_app')}
+        //   </Button>
+        // }
         />
       </ConfigProvider>
     </div>

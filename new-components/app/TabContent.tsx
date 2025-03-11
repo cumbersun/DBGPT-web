@@ -145,6 +145,7 @@ const TabContent: React.FC<{ apps: IApp[]; loading: boolean; refresh: () => void
             image={
               <Image src='/pictures/empty.png' alt='empty' width={234} height={176} className='w-[234px] h-[176px]' />
             }
+            imageStyle={{ height: 176 }}
             description=''
             className='flex justify-center items-center w-full h-full min-h-[200px]  mt-14'
           />
